@@ -6,7 +6,7 @@ package nomad
 import (
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/hashicorp/nomad/api"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"

@@ -4,7 +4,7 @@
 package nomad
 
 import (
-	"log"
+	log "github.com/sirupsen/logrus"
 	"testing"
 
 	"github.com/hashicorp/nomad/api"

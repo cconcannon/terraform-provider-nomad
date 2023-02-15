@@ -5,7 +5,7 @@ package nomad
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 
 	"github.com/hashicorp/nomad/api"
